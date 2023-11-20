@@ -1,0 +1,138 @@
+:root{
+    --main-bg:#de8a8a;
+    --box-1:#444;
+    --box-2:#333;
+    --box-3:#222;
+    --text-color:#fff;
+
+}
+html{
+    box-sizing:border-box;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing:inherit;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;;
+    padding:0;
+    margin:0;
+    font-family:"Arial", sans-serif;
+    font-size:16px;
+    line-height: 1.5;
+    background-color:var(--main-bg);
+    color:var(--text-color);
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+/* CONTAINER */
+.container{
+    width: 100%;
+    max-width: 1200px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* MAIN_CONTENT */
+.main-content{
+    flex-grow: 1;
+}
+.main-body{
+    --text-color:#de8a8a;
+    --main-bg:#333;
+    --box-1:#de8a8a;
+    --box-2:#c27877;
+    --box-3:#ab696a;
+}
+/* SITE-HEADER */
+
+.site-wrapper {
+    padding-top: 100px;
+}
+.main-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.heading-text {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size:50px;
+    margin:0;
+}
+.shadow-text {
+    text-transform: uppercase;
+    font-size: 50px;
+    opacity:0.6;
+    margin:0;
+}
+.addition-text {
+    margin:0;
+    padding-bottom: 50px;
+    color:#fff;
+}
+.main-boxs {
+    display: flex;
+
+}   
+.box {
+    width: 280px;
+    height: 300px;
+    background-color:var(--box-1);
+    box-shadow: 0px 0px 9px 2px rgba(0, 0, 0, 0.3);
+
+}
+.box-heading {
+    margin: 0;
+    margin-top: 120px;
+    margin-left: 30px;
+    padding: 0;
+    font-size: 17px;
+    /* letter-spacing: 1px; */
+    color:var(--main-bg);
+}
+.box-text {
+    margin: 0;
+    margin-left: 30px;
+    font-size: 25px;
+    color:#fff;
+}
+.box-2 {
+    background-color:var(--box-2);
+}
+.box-3 {
+    background-color:var(--box-3);
+}
+.entry-link {
+    padding: 18px 100px;
+    text-decoration: none;
+    color:#fff;
+    background-color:#000;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+.button{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-style: normal;
+    font-size:15px;
+}
+/* Site-header-theme-button */
+.dark-button {
+    margin-top: 30px;
+    margin-left:1200px;
+    cursor: pointer;
+
+}
