@@ -57,7 +57,10 @@ img{
     --box-3:#ab696a;
 }
 /* SITE-HEADER */
-
+.site-header{
+    display: flex;
+    flex-direction: column;
+}
 .site-wrapper {
     padding-top: 100px;
 }
@@ -130,9 +133,11 @@ img{
     font-size:15px;
 }
 /* Site-header-theme-button */
+
 .dark-button {
     margin-top: 30px;
-    margin-left:1200px;
+    margin-right: 210px;
+    margin-left:auto;
     cursor: pointer;
 
 }
